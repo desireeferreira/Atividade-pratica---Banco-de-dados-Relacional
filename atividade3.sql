@@ -1,0 +1,15 @@
+CREATE DATABASE escola;
+
+USE escola;
+
+CREATE TABLE escola(
+id BIGINT AUTO_INCREMENT,
+nome VARCHAR(255) NOT NULL,
+idade INT,
+turma VARCHAR(50),
+nota DECIMAL(3,1),
+situação VARCHAR(50),
+PRIMARY KEY(id));
+
+
+
