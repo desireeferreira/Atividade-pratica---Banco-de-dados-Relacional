@@ -24,8 +24,8 @@ INSERT INTO produtos
 
 SELECT *FROM produtos WHERE  preco >500;
 SELECT *FROM produtos WHERE preco <500;
-
-UPDATE produtos SET preco = 400.00 WHERE nome = "Body Modelador";
+SELECT *FROM produtos  ;
+UPDATE produtos SET preco = 600.00 WHERE id =6  ;
 
 
 

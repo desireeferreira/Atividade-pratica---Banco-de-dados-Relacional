@@ -19,7 +19,15 @@ INSERT INTO estudante
 ("Manoela", 16, "5D", 8.9, "Aprovado"),
 ("Igor", 16, "9B", 10.0, "Aprovado"),
 ("Gustavo", 12, "5B", 8.3, "Aprovado"),
-("Pedro", 16, "2002C", 4.9, "Reprovado");
+("Pedro", 16, "2002C", 4.9, "Reprovado"),
+("Desiree", 18, "3002C", 3.9, "Reprovado");
+
+SELECT *FROM estudante WHERE nota >7.0;
+SELECT *FROM estudante WHERE nota <7.0;
+
+SELECT *FROM estudante;
+UPDATE estudante SET nota = 7.0, situacao = "Aprovada"  WHERE id =1 ;
+
 
 
 
